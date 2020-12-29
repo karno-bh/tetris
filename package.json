@@ -1,0 +1,27 @@
+{
+  "name": "tetris",
+  "version": "1.0.0",
+  "description": "This is an attempt to recreate the Tetris game with a subset of technologies for a self learning.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karno-bh/tetris.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karno-bh/tetris/issues"
+  },
+  "homepage": "https://github.com/karno-bh/tetris#readme",
+  "devDependencies": {
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.0"
+  }
+}
