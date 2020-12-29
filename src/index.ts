@@ -1,5 +1,6 @@
-import _ from 'lodash';
-import printMe from './print'
+import * as _ from 'lodash';
+import printMe from './print';
+import { fizzBuzz } from './fizzBuzz';
 // import './style.css'
 
 function component() {
@@ -17,3 +18,5 @@ function component() {
 }
 
 document.body.appendChild(component())
+console.log('Hello World!!');
+console.log(fizzBuzz(5))
