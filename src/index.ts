@@ -1,16 +1,14 @@
 import * as _ from 'lodash';;
 import { fizzBuzz } from './fizzBuzz';
 
-function component() {
-    const element = document.createElement('div');
-
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-    // element.classList.add('hello');
-    // btn.onclick = printMe;
-
-    return element;
+function drawCanvas() {
+  const canvas = document.querySelector('#game-canvas')! as HTMLCanvasElement;
+  console.log('Canvas with height', canvas.width, canvas.height);
+  const ctx = canvas.getContext('2d');
+  ctx.fillStyle = 'darkblue';
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  ctx.fillStyle = 'green';
+  ctx.fillRect(10, 10, 150, 100);
 }
 
-document.body.appendChild(component())
-console.log('Hello World!!');
-console.log(fizzBuzz(5))
+drawCanvas();
