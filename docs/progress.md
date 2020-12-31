@@ -77,4 +77,6 @@
   - Done
   - Planned
   - Actual
+    - 08:00 -- 09:35
+      Added an initial canvas to HTML.
   - Notes
