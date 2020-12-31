@@ -7,7 +7,7 @@ function component() {
     element.innerHTML = _.join(['Hello', 'webpack'], ' ');
     // element.classList.add('hello');
     // btn.onclick = printMe;
- 
+
     return element;
 }
 

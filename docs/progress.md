@@ -27,8 +27,11 @@
     - Set some structure of the project
   - Actual
     - 06:00 -- 11:00
-      
+
       - Tried to get the project into some structure. No actual success.
+    - 11:30 -- 13:00
+      - Finally achieved some desired state within application structures. TypeScript and tests
+        are added to application.
   - Notes
     - 11:00 -- 11:21
 
@@ -46,11 +49,11 @@
       progress.
 
       - The project should have some small HTML containing all needed stuffs
-        
-        I.e., it is enough to have a one big emitted "main.js" 
+
+        I.e., it is enough to have a one big emitted "main.js"
 
       - Only the code should come from outside
-        
+
         I.e., "main.js" is enough. I don't build some super complicated web site... just a small game
         with just a small functionality. No need to split modules in webpack, etc.
 
@@ -64,7 +67,7 @@
   - Done
   - Planned
     - Early morning
-      
+
       - Set up the structure as per yesterday's thinkings
   - Actual
   - Notes
